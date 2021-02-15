@@ -1,1 +1,1 @@
-### Aim of the experiment
+To Determine Energy Band Gap of Semiconductor 
