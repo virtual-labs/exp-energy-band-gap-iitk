@@ -101,7 +101,7 @@
     },
 
     {
-     question: ". In Carey Foster Bridge experiment the galvanometer G is connected across branch?",  ///// Write the question inside double quotes
+     question: "In Carey Foster Bridge experiment the galvanometer G is connected across branch?",  ///// Write the question inside double quotes
       answers: {
         a: "µA",                  ///// Write the option 1 inside double quotes
         b: "mA",                  ///// Write the option 2 inside double quotes
