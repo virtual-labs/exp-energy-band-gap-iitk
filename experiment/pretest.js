@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "The plot of 103 /T and log10Is for PN junction diode in reverse bias is?",  ///// Write the question inside double quotes
+      question: "The plot of 10<sup>3</sup> /T and log<sub>10</sub>Is for PN junction diode in reverse bias is?",  ///// Write the question inside double quotes
       answers: {
         a: "Straight line",                  ///// Write the option 1 inside double quotes
         b: "parabolic",                  ///// Write the option 2 inside double quotes
