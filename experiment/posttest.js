@@ -108,7 +108,7 @@
         c: "remains constant",                  ///// Write the option 3 inside double quotes
         d: "none of these"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
