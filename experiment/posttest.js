@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "The value of the current (nearly) in the PN junction at T=60 C when applied potential difference is 5V?",  ///// Write the question inside double quotes
+      question: "The value of the current (nearly) in the PN junction at T=60 &#8451; when applied potential difference is 5V?",  ///// Write the question inside double quotes
       answers: {
         a: "10µA",                  ///// Write the option 1 inside double quotes
         b: "20µA",                  ///// Write the option 2 inside double quotes
