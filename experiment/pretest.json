@@ -1,1 +1,19 @@
-[{"question":"The plot of 10<sup>3</sup> /T and log<sub>10</sub>Is for PN junction diode in reverse bias is?","answers":{"a":"Straight line","b":"parabolic","c":"hyperbolic","d":"elliptical"},"correctAnswer":"a"},{"question":". In Carey Foster Bridge experiment the galvanometer G is connected across branch?","answers":{"a":"µA","b":"mA","c":"A","d":"None of these"},"correctAnswer":"a"}]
+[{
+	"question": "The plot of 10<sup>3</sup> /T and log<sub>10</sub>Is for PN junction diode in reverse bias is?",
+	"answers": {
+		"a": "Straight line",
+		"b": "parabolic",
+		"c": "hyperbolic",
+		"d": "elliptical"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": ". In Carey Foster Bridge experiment the galvanometer G is connected across branch?",
+	"answers": {
+		"a": "µA",
+		"b": "mA",
+		"c": "A",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+}]
