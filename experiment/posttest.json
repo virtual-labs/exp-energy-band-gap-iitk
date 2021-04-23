@@ -1,1 +1,19 @@
-[{"question":"The value of the current (nearly) in the PN junction at T=60 &#8451; when applied potential difference is 5V?","answers":{"a":"10µA","b":"20µA","c":"30µA","d":"40µA"},"correctAnswer":"b"},{"question":"Resistance of any PN junction in reverse bias _______________ with increase in temperature?","answers":{"a":"Increases","b":"decreases","c":"remains constant","d":"none of these"},"correctAnswer":"a"}]
+[{
+	"question": "The value of the current (nearly) in the PN junction at T=60 &#8451; when applied potential difference is 5V?",
+	"answers": {
+		"a": "10µA",
+		"b": "20µA",
+		"c": "30µA",
+		"d": "40µA"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Resistance of any PN junction in reverse bias _______________ with increase in temperature?",
+	"answers": {
+		"a": "Increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "none of these"
+	},
+	"correctAnswer": "a"
+}]
