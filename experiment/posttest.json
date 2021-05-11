@@ -15,5 +15,25 @@
 		"c": "remains constant",
 		"d": "none of these"
 	},
+	"correctAnswer": "b"
+},
+{
+	"question": "The value of Boltzmann Constant K in Ev/K is:",
+	"answers": {
+		"a": "9.61 × 10<sup>-5</sup> eV/K",
+		"b": "8.61 × 10<sup>-5</sup> eV/K",
+		"c": "6.81 × 10<sup>-6</sup> eV/K",
+		"d": "NOT"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "Micro Ammeter and voltmeter are connected respectively in ------------- with respect to the pn junction in the circuit for determination of the Energy Band gap",
+	"answers": {
+		"a": "Series and parallel",
+		"b": "Parallel and Series",
+		"c": "Both parallel",
+		"d": "Both series"
+	},
 	"correctAnswer": "a"
 }]
