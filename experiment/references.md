@@ -1,4 +1,4 @@
-https://www.nitj.ac.in/physics/Downloads/Band_Gap5394.pdf<br>
+1. https://www.nitj.ac.in/physics/Downloads/Band_Gap5394.pdf<br>
 2. https://www.ijsr.net/archive/v5i2/NOV161376.pdf<br>
 3. http://maecourses.ucsd.edu/callafon/labcourse/handouts/Sample1.pdf<br>
 4. http://www.indosawedu.com/p-n-junction-energy-band-gap.php<br>
