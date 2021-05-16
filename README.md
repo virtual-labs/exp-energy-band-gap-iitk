@@ -20,5 +20,5 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
+1 | Dr. Ashutosh Tiwari| Faculty | Physics | REC Banda | ashutosh.tiwari@recbanda.ac.in
 2 | . | . | . | . | .
