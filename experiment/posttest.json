@@ -1,5 +1,5 @@
 [{
-	"question": "The value of the current (nearly) in the PN junction at T=60<sup>o</sup>C when applied potential difference is 5V?",
+	"question": "1. The value of the current (nearly) in the PN junction at T=60<sup>o</sup>C when applied potential difference is 5V?",
 	"answers": {
 		"a": "10µA",
 		"b": "20µA",
@@ -8,7 +8,7 @@
 	},
 	"correctAnswer": "b"
 }, {
-	"question": "Resistance of any PN junction in reverse bias _______________ with increase in temperature?",
+	"question": "2. Resistance of any PN junction in reverse bias _______________ with increase in temperature?",
 	"answers": {
 		"a": "Increases",
 		"b": "decreases",
@@ -18,7 +18,7 @@
 	"correctAnswer": "b"
 },
 {
-	"question": "The value of Boltzmann Constant K in Ev/K is:",
+	"question": "3. The value of Boltzmann Constant K in Ev/K is:",
 	"answers": {
 		"a": "9.61 × 10<sup>-5</sup> eV/K",
 		"b": "8.61 × 10<sup>-5</sup> eV/K",
@@ -28,7 +28,7 @@
 	"correctAnswer": "b"
 },
 {
-	"question": "Micro Ammeter and voltmeter are connected respectively in ------------- with respect to the pn junction in the circuit for determination of the Energy Band gap",
+	"question": "4. Micro Ammeter and voltmeter are connected respectively in ------------- with respect to the pn junction in the circuit for determination of the Energy Band gap",
 	"answers": {
 		"a": "Series and parallel",
 		"b": "Parallel and Series",
