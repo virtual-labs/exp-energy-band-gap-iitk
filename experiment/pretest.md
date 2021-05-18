@@ -1,7 +1,7 @@
 ## <b> Pre-test
 #### Please attempt the following questions
 
-1. The plot of 10<sup>3</sup> /T and log<sup>10</sup>I<sup>s</sup> for PN junction diode in reverse bias is:<br>
+1. The plot of 10<sup>3</sup> /T and log<sub>10</sub>I<sub>s</sub> for PN junction diode in reverse bias is:<br>
 <b>a) Straight line</b><br>
 b) parabolic<br> 
 c) hyperbolic<br> 
