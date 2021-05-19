@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "The value of the current (nearly) in the PN junction at T=60 &#8451; when applied potential difference is 5V?",  ///// Write the question inside double quotes
+      question: "1. The value of the current (nearly) in the PN junction at T=60 &#8451; when applied potential difference is 5V?",  ///// Write the question inside double quotes
       answers: {
         a: "10µA",                  ///// Write the option 1 inside double quotes
         b: "20µA",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-      question: "Resistance of any PN junction in reverse bias _______________ with increase in temperature?",  ///// Write the question inside double quotes
+      question: "2. Resistance of any PN junction in reverse bias _______________ with increase in temperature?",  ///// Write the question inside double quotes
       answers: {
         a: "Increases",                  ///// Write the option 1 inside double quotes
         b: "decreases",                  ///// Write the option 2 inside double quotes
@@ -109,7 +109,27 @@
         d: "none of these"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+    },    
+      {
+      question: "3. The value of Boltzmann Constant K in Ev/K is:",  ///// Write the question inside double quotes
+      answers: {
+        a: "9.61 × 10<sup>-5</sup> eV/K",                  ///// Write the option 1 inside double quotes
+        b: "8.61 × 10<sup>-5</sup> eV/K",                  ///// Write the option 2 inside double quotes
+        c: "6.81 × 10<sup>-6</sup> eV/K",                  ///// Write the option 3 inside double quotes
+        d: "none of these"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    }, 
+      {
+      question: "4. Micro Ammeter and voltmeter are connected respectively in ------------- with respect to the pn junction in the circuit for determination of the Energy Band gap.",  ///// Write the question inside double quotes
+      answers: {
+        a: "Series and parallel",                  ///// Write the option 1 inside double quotes
+        b: "Parallel and Series",                  ///// Write the option 2 inside double quotes
+        c: "Both parallel",                  ///// Write the option 3 inside double quotes
+        d: "Both series"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    }, ///// To add more questions, copy the section below 
     									                  ///// this line
 
 

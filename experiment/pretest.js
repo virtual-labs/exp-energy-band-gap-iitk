@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "The plot of 10<sup>3</sup> /T and log<sub>10</sub>Is for PN junction diode in reverse bias is?",  ///// Write the question inside double quotes
+      question: "1. The plot of 10<sup>3</sup> /T and log<sub>10</sub>Is for PN junction diode in reverse bias is?",  ///// Write the question inside double quotes
       answers: {
         a: "Straight line",                  ///// Write the option 1 inside double quotes
         b: "parabolic",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-     question: ". In Carey Foster Bridge experiment the galvanometer G is connected across branch?",  ///// Write the question inside double quotes
+     question: "2. Current in the PN Junction in during reverse bias is in:",  ///// Write the question inside double quotes
       answers: {
         a: "µA",                  ///// Write the option 1 inside double quotes
         b: "mA",                  ///// Write the option 2 inside double quotes
@@ -109,7 +109,27 @@
         d: "None of these"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+    }, 
+      {
+     question: "3. Energy Band gap in case of Silicon is approximately:",  ///// Write the question inside double quotes
+      answers: {
+        a: "1.1 eV",                  ///// Write the option 1 inside double quotes
+        b: "0.7 eV",                  ///// Write the option 2 inside double quotes
+        c: "10.0 eV",                  ///// Write the option 3 inside double quotes
+        d: "None of these"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    }, 
+      {
+     question: "4. Energy Band gap in case of Germanium is approximately:",  ///// Write the question inside double quotes
+      answers: {
+        a: "2.1 eV",                  ///// Write the option 1 inside double quotes
+        b: "0.7 eV",                  ///// Write the option 2 inside double quotes
+        c: "15.0 eV",                  ///// Write the option 3 inside double quotes
+        d: "None of these"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    }, ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
