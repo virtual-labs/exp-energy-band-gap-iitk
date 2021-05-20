@@ -9,7 +9,8 @@
 <b>Discipline | <b>Physical Sciences
 :--|:--|
 <b> Lab | <b> Basics of Physics
-<b> Experiment|     <b> 1. Energy Band Gap
+<b> Experiment|     <b> 2. Energy Band Gap
+
 
 
 <h4> [1. Focus Area](#LO)
