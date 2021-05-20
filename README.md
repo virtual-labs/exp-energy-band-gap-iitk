@@ -21,11 +21,8 @@ K = Boltzman constant in eV per Kelvin
 For small changes in temperature where log T can be treated as constant relation (1) can be written as 
 log10Is = constant – 5.04 Eg. 103 /T_ _ _ _ (2)
 Graph between 103 /T as abscissa and log10Is as ordinate will be a straight line having a slope = 5.04Eg 
-<<<<<<< HEAD
-Hence band gap 
-=======
+
 Hence band gap, 
->>>>>>> 86c9944befd7438d64fffc1a76af1db576782d1c
 
 Eg = slope of the line / 5.04 
 
@@ -40,11 +37,7 @@ Eg = slope of the line / 5.04
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-<<<<<<< HEAD
-1 | Prof. Kantesh Balani | Faculty | MSE | IIT Kanpur, Kanpur | kbalani@iitk.ac.in
-=======
 1 | Dr. Ashutosh Tiwari | Faculty | Physics | REC Banda | ashutosh.tiwari@recbanda.ac.in
->>>>>>> 86c9944befd7438d64fffc1a76af1db576782d1c
 2 | Abhay Gupta | Student | Information Technology | REC, Banda |abhaypc26@gmail.com
 3 | Praphull Maurya | Student | Information Technology | REC, Banda |praphullmaurya123@gmail.com
 4 | Satish Kumar | Student | Electrical Technology | REC, Banda |satishkumar7991@gmail.com

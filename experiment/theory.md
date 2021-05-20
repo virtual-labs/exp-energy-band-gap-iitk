@@ -22,7 +22,6 @@ log<sub>10</sub>Is = constant – 5.04 E<sub>g</sub>. 10<sup>3</sup> /T_ _ _ _ (
 
 Graph between 10<sup>3</sup> /T as abscissa and log<sub>10</sub>Is as ordinate will be a straight line having a slope = 5.04E<sub>g</sub>  
 
-
 Hence band gap  
 
 E<sub>g</sub> = slope of the line / 5.04  <br>
