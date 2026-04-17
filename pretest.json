@@ -1,0 +1,39 @@
+[{
+	"question": "1. The plot of 10<sup>3</sup> /T and log<sub>10</sub>I<sub>s</sub> for PN junction diode in reverse bias is?",
+	"answers": {
+		"a": "Straight line",
+		"b": "parabolic",
+		"c": "hyperbolic",
+		"d": "elliptical"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. Current in the PN Junction in during reverse bias is in:",
+	"answers": {
+		"a": "µA",
+		"b": "mA",
+		"c": "A",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "3. Energy Band gap in case of Silicon is approximately:",
+	"answers": {
+		"a": "1.1 eV",
+		"b": "0.7 eV",
+		"c": "10.0 eV",
+		"d": "None of these"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "4. Energy Band gap in case of Germanium is approximately:",
+	"answers": {
+		"a": "2.1 eV",
+		"b": "0.7 eV",
+		"c": "15.0 eV",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}]
