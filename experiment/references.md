@@ -3,4 +3,3 @@
 3.http://maecourses.ucsd.edu/callafon/labcourse/handouts/Sample1.pdf<br>
 4.http://www.indosawedu.com/p-n-junction-energy-band-gap.php<br>
 5.https://www.iitr.ac.in/departments/PH/uploads/Teaching%20Laboratory/18%20Experiments%20related%20to%20PN%20Junction.pdf<br>
-

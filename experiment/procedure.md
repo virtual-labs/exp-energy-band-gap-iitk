@@ -20,4 +20,3 @@
 20.	Click on “Find Slope” button.<br>
 21.	Enter the value of calculated slope.<br>
 22.	Click “Calculate” button to get the value of Energy Band Gap.
-

@@ -11,8 +11,6 @@
 <b> Lab | <b> Basics of Physics
 <b> Experiment|     <b> 2. Energy Band Gap
 
-
-
 <h4> [1. Focus Area](#LO)
 <h4> [2. Learning Objectives ](#LO)
 <h4> [3. Instructional Strategy](#IS)
