@@ -778,6 +778,12 @@ img[src*="formula.png"] {
         max-width: 100% !important;
     }
 
+    #login {
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
     #login .modal-header {
         padding: 12px 14px;
     }
