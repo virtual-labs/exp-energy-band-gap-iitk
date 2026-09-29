@@ -10,7 +10,7 @@
     <script src="js/graph_use2.ob.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Energy Band Gap Simulation</title>
     <style>
@@ -68,88 +68,79 @@
 </div>
 
 
-<!-- ================= VIDEO SECTION ================= -->
-
-<div id="videoSection" class="container-fluid mt-4">
-
-    <div class="card mx-auto"
-         style="max-width: 900px;
-                border-radius: 12px;
-                box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-
-        <div class="card-header text-center text-white"
-             style="background-color:#634380;
-                    border-radius:12px 12px 0 0;">
-
-            <h4 class="mb-0">How to Run the Simulation</h4>
-
-        </div>
-
-        <div class="card-body text-center">
-
-            <video id="instructionVideo"
-                   controls
-                   width="100%"
-                   style="max-height:500px; border-radius:8px;">
-
-                <source src="image/Energy_band_gap.mp4"
-                        type="video/mp4">
-
-                Your browser does not support the video tag.
-
-            </video>
-
-            <p class="mt-3 mb-3">
-                Please watch the video to understand how to perform the simulation.
-            </p>
-
-            <button class="btn btn-primary"
-        onclick="startSimulation()"
-        style="width: 250px;">
-    Start Simulation
-</button>
-
-        </div>
-
-    </div>
-
-</div>
-
-<!-- ================= END VIDEO SECTION ================= -->
-
-
-<!-- Video ended -->
-
-
-
-
-
-
-                                                                                                                                                    </div>
-<div class="container-fluid mt-4" style="height: 105vh;">
+<div class="container-fluid mt-4 simulation-shell" style="height: auto;">
     <h2 class="text-center  p-2 text-white" style="border-radius: 10px;background-color:#634380;color:white;margin: -20px 5px 0 5px ;font-weight: bold">ENERGY BAND GAP SIMULATION</h2>
-    <div class="row ml-1 mt-2 mb-5"  style="justify-content: left;" >
+    <div class="row ml-1 mt-2 mb-5 simulation-row"  style="justify-content: left;" >
 
-        <div class="col-xs-4 ml-3 mt"  >
-             <div class="row  mb-1 "  >
-                <a href="#" style="text-decoration: none;color: white" data-target="#login" data-toggle="modal">
-                <button id="btn_main" style="width: 223px;background-color: #ca2222;font-weight: bold;"   vlab-action="STOP_SIMULATION" class="btn btn-danger mr-1 " onclick="main()">
+        <div class="col-xs-4 ml-3 mt simulation-controls"  >
+             <div class="row  mb-1 power-row"  >
+                <a href="#" style="text-decoration: none;color: white; display: block; width: 100%; text-align: center;">
+                <button id="btn_main" style="width: 223px;background-color: #ca2222;font-weight: bold;"   vlab-action="STOP_SIMULATION" class="btn btn-danger" onclick="main()">
                     ENABLE POWER</button></a>
-                <div class="modal " id="login" style="width: 500px;margin: 0 0 0 435px">
+                <div class="modal" id="login">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg-primary text-white">
                                 <h6>Among the following graphs which graph is plotted for semiconductors in Energy Band Gap Experiment?</h6>
-                                <button class="close" data-dismiss="modal">
-                                    <i class="fa fa-window-close text-white">x</i>
+                                <button class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                    <img src="image/graph.png" style="width: 440px;height: 300px">
-                                    <button class="btn btn-primary btn-sm mt-3 ml-3" onclick="cl1()">Image 1</button>
-                                    <button class="btn btn-primary btn-sm  mt-3" onclick="cl2()">Image 2</button>
-                                    <button class="btn btn-primary btn-sm  mt-3" onclick="cl3()">Image 3</button>
-                                    <button class="btn btn-primary btn-sm  mt-3" onclick="cl4()">Image 4</button>
+                                <div class="graph-grid">
+                                    <div class="graph-choice-item">
+                                        <svg viewBox="0 0 260 160" aria-label="Image 1" class="graph-choice-svg" role="img">
+                                            <g stroke="black" stroke-width="2.5" fill="none">
+                                                <line x1="18" y1="140" x2="18" y2="18"/>
+                                                <line x1="18" y1="140" x2="235" y2="140"/>
+                                                <line x1="18" y1="140" x2="118" y2="35"/>
+                                            </g>
+                                            <text x="18" y="12" font-size="12">Log I</text>
+                                            <text x="120" y="155" font-size="12">10³/T</text>
+                                            <text x="70" y="152" font-size="11">Image 1</text>
+                                        </svg>
+                                        <button class="btn btn-primary btn-sm" onclick="cl1()">Image 1</button>
+                                    </div>
+                                    <div class="graph-choice-item">
+                                        <svg viewBox="0 0 260 160" aria-label="Image 2" class="graph-choice-svg" role="img">
+                                            <g stroke="black" stroke-width="2.5" fill="none">
+                                                <line x1="18" y1="140" x2="18" y2="18"/>
+                                                <line x1="18" y1="140" x2="235" y2="140"/>
+                                                <line x1="18" y1="35" x2="118" y2="140"/>
+                                            </g>
+                                            <text x="18" y="12" font-size="12">Log I</text>
+                                            <text x="120" y="155" font-size="12">10³/T</text>
+                                            <text x="70" y="152" font-size="11">Image 2</text>
+                                        </svg>
+                                        <button class="btn btn-primary btn-sm" onclick="cl2()">Image 2</button>
+                                    </div>
+                                    <div class="graph-choice-item">
+                                        <svg viewBox="0 0 260 160" aria-label="Image 3" class="graph-choice-svg" role="img">
+                                            <g stroke="black" stroke-width="2.5" fill="none">
+                                                <line x1="18" y1="140" x2="18" y2="18"/>
+                                                <line x1="18" y1="140" x2="235" y2="140"/>
+                                                <path d="M18 140 Q60 110 120 140"/>
+                                            </g>
+                                            <text x="18" y="12" font-size="12">Log I</text>
+                                            <text x="120" y="155" font-size="12">10³/T</text>
+                                            <text x="70" y="152" font-size="11">Image 3</text>
+                                        </svg>
+                                        <button class="btn btn-primary btn-sm" onclick="cl3()">Image 3</button>
+                                    </div>
+                                    <div class="graph-choice-item">
+                                        <svg viewBox="0 0 260 160" aria-label="Image 4" class="graph-choice-svg" role="img">
+                                            <g stroke="black" stroke-width="2.5" fill="none">
+                                                <line x1="18" y1="140" x2="18" y2="18"/>
+                                                <line x1="18" y1="140" x2="235" y2="140"/>
+                                                <path d="M18 35 Q100 140 232 140"/>
+                                            </g>
+                                            <text x="18" y="12" font-size="12">Log I</text>
+                                            <text x="120" y="155" font-size="12">10³/T</text>
+                                            <text x="70" y="152" font-size="11">Image 4</text>
+                                        </svg>
+                                        <button class="btn btn-primary btn-sm" onclick="cl4()">Image 4</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -161,20 +152,20 @@
             <div class="row mb-1">
                 <button id="container" style="width: 223px;cursor: not-allowed" disabled vlab-action="DRAW_TWO_WAY_KEY" class="btn btn-warning" onclick="cont()">Place Container</button>
             </div>
-            <div class="row" >
+            <div class="row paired-control-row" >
 
                 <button id="pndiode" style="width: 110px;cursor: not-allowed" disabled  vlab-action="DRAW_RESISTOR" class="btn btn-primary mr-1">P-N Diode</button>
 
                 <button id="battery" style="width: 110px;cursor: not-allowed" disabled  vlab-action="DRAW_CELL" class="btn btn-primary">Battery</button>
             </div>
-            <div class="row mt-1 mb-1">
+            <div class="row mt-1 mb-1 paired-control-row">
 
                 <button id="ammeter" style="width: 110px;cursor: not-allowed" disabled  vlab-action="DRAW_GALVANOMETER" class="btn btn-primary mr-1">Ammeter</button>
 
                 <button id="voltmeter" style="width: 110px;cursor: not-allowed" disabled  vlab-action="DRAW_POTENTIOMETER" class="btn btn-primary">Voltmeter</button>
 
             </div>
-            <div class="row mb-1">
+            <div class="row mb-1 paired-control-row">
 
                 <button id="point" style="width: 110px;cursor: not-allowed" disabled  vlab-action="DRAW_POINT" class="btn btn-primary mr-1"> Point</button>
 
@@ -187,7 +178,7 @@
 
             </div>
 
-            <div class="row mb-1">
+            <div class="row mb-1 paired-control-row">
 
                 <button id="undo" style="width: 110px;cursor: not-allowed" disabled  vlab-action="UNDO" class="btn btn-primary mr-1">Undo</button>
 
@@ -198,8 +189,8 @@
                 <button id="reset" style="width: 223px;cursor: not-allowed" disabled  vlab-action="RESET" class="btn btn-danger">Reset</button>
 
             </div>
-            <div class="row mt-2 " style="height: max-content;">
-                <div class=" pl-0 pr-0 "
+            <div class="row mt-2 message-panel-row" style="height: max-content; margin-bottom: 12px; display: flex; justify-content: center;">
+                <div class="pl-0 pr-0 message-panel"
                      style="border: 0px inset green;width: 224px; box-shadow: 0px 0px 20px #bbb; background-color: white;">
                     <h6 class="text-center mb-0"
                         style="background-color: black;border-radius: 6px;width: 224px; color: white; box-shadow: 0px 3px 20px #bbb">Message</h6>
@@ -212,7 +203,7 @@
         </div>
 
 
-        <div class="col-xs-6 ml-4" style="border: 5px solid grey;border-radius: 10px; inset: green; box-shadow: 0px 0px 20px #bbb;">
+        <div class="col-xs-6 ml-4 experiment-stage" style="border: 5px solid grey;border-radius: 10px; inset: green; box-shadow: 0px 0px 20px #bbb; margin-top: 12px;">
             <img id="scream" src="image/abhay.svg "  style="display: none" >
             <img id="therma" src="image/handi.jpg" style="display: none">
             <img id="img_therma" src="image/therma.svg" style="display: none">
@@ -221,25 +212,23 @@
             </canvas>
         </div>
 
-        <div class="col-xs-2 ml-2" >
+        <div class="col-xs-2 ml-2 info-panel" >
             <div class="row " style="height: max-content;">
-                <div style="background-color: lightpink;margin: 0 10px 0 15px;border-radius: 10px">
-                    <table style="border: none;text-align: center;width: 200px;margin: 0 0 20px 0" >
-                        <tr >
-                            <td class="p-2" style="border: none">
-                                <select id="select_volt" class="p-1" style="border-radius: 5px;outline: none;width: 150px">
-                                    <option>Select Voltage </option>
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                </select>
-                            </td>
-                            <td class="p-2" style="border: none">
-                                <button class="btn btn-primary disabled" disabled id="calc_volt" onclick="cal_volt()">Click</button>
-                            </td>
-                        </tr>
+                <div class="voltage-panel" style="background-color: lightpink;margin: 0 10px 0 15px;border-radius: 10px; width: 100%; max-width: 320px;">
+                    <div class="volt-control-row">
+                        <div class="volt-select-wrap">
+                            <select id="select_volt" class="p-1" style="border-radius: 5px;outline: none;width: 100%; min-width: 0;">
+                                <option>Select Voltage </option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-primary disabled" disabled id="calc_volt" onclick="cal_volt()">Click</button>
+                    </div>
+                    <table style="border: none;text-align: center;width: 100%;margin: 0 0 20px 0">
                         <tr id="vlted" style="display: none">
                             <td class="" style="border: none" >
                                 <h6>Selected Voltage is </h6>
@@ -253,22 +242,22 @@
             </div>
             <div class="row mt-2" style="height: max-content;">
                 <div style="background-color: lightpink;margin: 0 10px 0 15px;border-radius: 10px">
-                    <table style="border: none;text-align: center;width: 260px;margin: 0 0 20px 20px">
+                    <table class="temp-control-table" style="border: none;text-align: center;width: 100%;max-width: 100%;margin: 0 0 20px 0">
                         <tr>
-                            <td style="border: none" class="pt-2 pr-2 pb-2">
-                                <h6>Slide to choose Temprature</h6>
+                            <td style="border: none; width: 100%;" class="pt-2 pr-2 pb-2">
+                                <h6 style="width: 100%; margin: 0 auto; white-space: normal; word-break: break-word; overflow-wrap: anywhere;">Slide to choose Temperature</h6>
                             </td>
                         </tr>
                         <tr>
-                            <td style="border: none">
-                                <span style="font-weight: bold">0</span>
-                                <input type="range" min="1" max="100" step="1" value="90" class="slider" id="myRange" >
-                                <span style="font-weight: bold">100</span>
+                            <td style="border: none; width: 100%;">
+                                <span style="font-weight: bold; display: inline-block; min-width: 12px;">0</span>
+                                <input type="range" min="1" max="100" step="1" value="90" class="slider" id="myRange" style="display: inline-block; vertical-align: middle;">
+                                <span style="font-weight: bold; display: inline-block; min-width: 28px;">100</span>
                             </td>
                         </tr>
                         <tr>
-                            <td style="border: none" class="pt-2 pr-2">
-                                <h6>Selected Temprature is&nbsp;<span id="temp_slider" style="font-weight: bold;color: red"></span>&nbsp;<sup>o</sup>C</h6>
+                            <td style="border: none; width: 100%;" class="pt-2 pr-2">
+                                <h6 style="width: 100%; margin: 0 auto; white-space: normal; word-break: break-word; overflow-wrap: anywhere;">Selected Temperature is&nbsp;<span id="temp_slider" style="font-weight: bold;color: red"></span>&nbsp;<sup>o</sup>C</h6>
                             </td>
                         </tr>
                     </table>
@@ -276,22 +265,20 @@
             </div>
                 <div class="row mt-2" style="height: max-content;">
                     <div style="background-color: lightpink;margin: 0 10px 0 15px;border-radius: 10px">
-                        <table style="border: none;text-align: center;width: 260px;margin: 0 0 20px 20px">
+                        <table class="reverse-current-table" style="border: none;text-align: center;width: 100%;max-width: 100%;margin: 0 0 20px 0">
                             <tr>
-                                <td style="border: none" class="pt-2 pr-2 pb-2">
-                                    <h6>Get Reverse Saturation Current</h6>
+                                <td style="border: none; width: 100%;" class="pt-2 pr-2 pb-2">
+                                    <h6 style="width: 100%; margin: 0 auto; white-space: normal; word-break: break-word; overflow-wrap: anywhere;">Get Reverse Saturation Current</h6>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="border: none">
-                                    <button type="button" class="btn btn-primary disabled" disabled id="current" onclick="rev_cur()">Find Here</button>
+                                <td style="border: none; width: 100%;">
+                                    <button type="button" class="btn btn-primary disabled" disabled id="current" onclick="rev_cur()" style="width: 100%; max-width: 210px; margin: 0 auto; display: block;">Find Here</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="border: none" class="pt-2 pr-2">
-
-                                    <h6>Reverse Saturation Current is&nbsp;<span id="sat_cur" style="font-weight: bold;color: red"></span>&nbsp;&micro;A</h6>
-
+                                <td style="border: none; width: 100%;" class="pt-2 pr-2">
+                                    <h6 style="width: 100%; margin: 0 auto; white-space: normal; word-break: break-word; overflow-wrap: anywhere;">Reverse Saturation Current is&nbsp;<span id="sat_cur" style="font-weight: bold;color: red"></span>&nbsp;&micro;A</h6>
                                 </td>
                             </tr>
                         </table>
@@ -320,20 +307,21 @@
     </div>
 </div>
 
-<div style="margin: 0 5px 0 5px;border-radius: 20px">
-    <h4 class="bg-primary" style="color: white;border-radius: 8px;padding: 7px;font-family:
- Arial, Helvetica, sans-serif;text-align: center">
-        TABLE : OBSERVATIONS</h4>
-    <table style="width: 670px">
+<div class="observation-data-section">
+<h4 class="bg-primary observation-table-heading" style="color: white;border-radius: 8px;padding: 7px;font-family: Arial, Helvetica, sans-serif;text-align: center">
+    TABLE : OBSERVATIONS</h4>
+<div class="observation-graph-layout">
+<div class="responsive-table-wrap observation-table-wrap">
+    <table class="observation-table" style="width: 670px">
         <thead>
         <tr>
             <th >S.No.</th>
 
-            <th  style="padding: 5px">Temperature(<sup>o</sup>C)
+            <th style="padding: 5px">Temperature<br>(<sup>o</sup>C)
             </th>
             <th  style="padding: 5px">Current I<sub>s</sub> (&micro;A)
             </th>
-            <th  style="padding: 5px">Temperature(<sup>o</sup>K)
+            <th style="padding: 5px">Temperature<br>(<sup>o</sup>K)
             </th>
             <th  style="padding: 5px">10<sup>3</sup>/T
             </th>
@@ -460,27 +448,18 @@
         </tbody>
 
     </table>
-    <br>
-
 </div>
-<br>
-
-<div>
-    <table style="margin: -330px 0 0 690px" style="border: none">
-        <tr>
-            <td >
-                <div id="l1" style="width:615px;height:277px"></div>
-            </td>
-        </tr>
-
-    </table>
-
+<div class="graph-panel">
+    <div id="l1" style="width: 100%; height: 300px;"></div>
+</div>
 </div>
 
 
-    <button class="btn btn-primary" style="width: 200px;margin: 10px 0 0 250px" onclick="calculate_table()">Calculate Data</button>
-    <button class="btn btn-primary disabled"  style="margin: 10px 0 0 450px;width: 200px;cursor: not-allowed"
-              id="graph"          onclick="draw_graph()" disabled >Draw Graph</button>
+    <div class="graph-action-bar">
+        <button class="btn btn-primary" onclick="calculate_table()">Calculate Data</button>
+        <button class="btn btn-primary disabled" id="graph" onclick="draw_graph()" disabled>Draw Graph</button>
+    </div>
+</div>
 
 <br>
 <br>
@@ -489,20 +468,15 @@
     <table style="border: none;text-align: center;width:100%;
         background-color: lightpink;border-radius: 8px;">
         <tr>
-
             <td style="border: none" class="p-3">
-                <span>
-                    <input type="text" style="width:200px;" id="ip1" placeholder="Enter First Coordinate">
-                </span>
-                <span>
-                    &nbsp;&nbsp;<input type="text" style="width:200px;" id="ip2" placeholder="Enter Second Coordinate">
-                </span>
-                <span>&nbsp;&nbsp;
+                <div class="responsive-input-row coordinate-input-row">
+                    <input type="text" id="ip1" placeholder="Enter First Coordinate">
+                    <input type="text" id="ip2" placeholder="Enter Second Coordinate">
                     <button class="btn btn-primary disabled" id="slope_button" style="cursor: not-allowed" disabled onclick="slopy()">Find Slope</button>
-                </span>&nbsp;&nbsp;&nbsp;
-                <span id="slp" style="display: none">
+                </div>
+                <div id="slp" style="display: none; margin-top: 10px;">
                     Calculated Slope is&nbsp;<span id="ip3" style="font-weight: bold;color: red;padding: 5px;"></span>
-                </span>
+                </div>
             </td>
         </tr>
     </table>
@@ -513,12 +487,13 @@
         <table style="border: none;text-align: center;width:100%;
         background-color: lightpink;border-radius: 8px;">
             <tr>
-
                 <td style="border: none" class="pt-3 pb-3 pl-3">
-                    <span>Energy Band Gap (E<sub>g</sub>) =</span>&nbsp;
-                    <input type="text" style="width:100px;" id="slp_value" placeholder="Enter Slope">/5.04 &nbsp;
-                    <button class="btn btn-primary disabled" id="eg_button" style="cursor: not-allowed"
-                            disabled onclick="cal_eg()">Calculate</button>
+                    <div class="responsive-input-row slope-input-row">
+                        <span>Energy Band Gap (E<sub>g</sub>) =</span>
+                        <input type="text" id="slp_value" placeholder="Enter Slope">/5.04
+                        <button class="btn btn-primary disabled" id="eg_button" style="cursor: not-allowed"
+                                disabled onclick="cal_eg()">Calculate</button>
+                    </div>
                 </td>
                 <td style="border: none;display: none" id="hide_eg" class="pt-3 pb-3 pr-3">
                     <h6>Observed Energy Band Gap is&nbsp;<span id="eg_value" style="font-weight: bold;color: red;padding: 5px;"></span></h6>
@@ -730,10 +705,6 @@ function cal_eg() {
         document.getElementById("eg_value").innerHTML = eg.toFixed(3);
         document.getElementById('hide_eg').style.display = '';
     }
-}
-
-function startSimulation() {
-    document.getElementById("videoSection").style.display = "none";
 }
 
 </script>
