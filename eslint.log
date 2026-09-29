@@ -1,0 +1,609 @@
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/bootstrap.min.js
+  6:71     warning  'exports' is not defined                                                   no-undef
+  6:79     warning  'require' is not defined                                                   no-undef
+  6:97     warning  'require' is not defined                                                   no-undef
+  6:146    warning  'define' is not defined                                                    no-undef
+  6:157    warning  'define' is not defined                                                    no-undef
+  6:939    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  6:984    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  6:34608  warning  'e' is defined but never used                                              no-unused-vars
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/graph.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/graph_use.ob.js
+  1:103  warning  'drawgraph' is defined but never used  no-unused-vars
+  1:163  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/graph_use2.ob.js
+  1:100  warning  'drawgraph2' is defined but never used  no-unused-vars
+  1:193  warning  'CanvasJS' is not defined               no-undef
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/javascript.js
+    32:11  warning  'main' is defined but never used             no-unused-vars
+    43:11  warning  'main2' is defined but never used            no-unused-vars
+    47:10  warning  'cont' is defined but never used             no-unused-vars
+    70:10  warning  'connect_wire' is defined but never used     no-unused-vars
+    75:10  warning  'cl1' is defined but never used              no-unused-vars
+    78:11  warning  'cl2' is defined but never used              no-unused-vars
+    93:11  warning  'cl3' is defined but never used              no-unused-vars
+    96:11  warning  'cl4' is defined but never used              no-unused-vars
+   177:13  warning  'canvas' is not defined                      no-undef
+   178:13  warning  'canvas' is not defined                      no-undef
+   179:13  warning  'canvas' is not defined                      no-undef
+   180:13  warning  'canvas' is not defined                      no-undef
+   181:13  warning  'canvas' is not defined                      no-undef
+   182:13  warning  'canvas' is not defined                      no-undef
+   184:13  warning  'canvas' is not defined                      no-undef
+   185:13  warning  'canvas' is not defined                      no-undef
+   186:13  warning  'canvas' is not defined                      no-undef
+   188:13  warning  'canvas' is not defined                      no-undef
+   189:13  warning  'canvas' is not defined                      no-undef
+   201:44  warning  Empty block statement                        no-empty
+   203:16  warning  Empty block statement                        no-empty
+   239:9   warning  'canvas' is not defined                      no-undef
+   240:9   warning  'canvas' is not defined                      no-undef
+   242:9   warning  'canvas' is not defined                      no-undef
+   243:9   warning  'canvas' is not defined                      no-undef
+   245:13  warning  'canvas' is not defined                      no-undef
+   246:13  warning  'canvas' is not defined                      no-undef
+   248:13  warning  'canvas' is not defined                      no-undef
+   250:9   warning  'canvas' is not defined                      no-undef
+   251:9   warning  'canvas' is not defined                      no-undef
+   253:9   warning  'canvas' is not defined                      no-undef
+   254:9   warning  'canvas' is not defined                      no-undef
+   255:9   warning  'canvas' is not defined                      no-undef
+   256:9   warning  'canvas' is not defined                      no-undef
+   257:9   warning  'canvas' is not defined                      no-undef
+   259:9   warning  'canvas' is not defined                      no-undef
+   260:9   warning  'canvas' is not defined                      no-undef
+   261:9   warning  'canvas' is not defined                      no-undef
+   262:9   warning  'canvas' is not defined                      no-undef
+   263:9   warning  'canvas' is not defined                      no-undef
+   272:28  warning  'canvas' is not defined                      no-undef
+   273:30  warning  'canvas' is not defined                      no-undef
+   274:30  warning  'canvas' is not defined                      no-undef
+   284:9   warning  'canvas' is not defined                      no-undef
+   288:31  warning  'x' is defined but never used                no-unused-vars
+   288:34  warning  'y' is defined but never used                no-unused-vars
+   299:28  warning  'canvas' is not defined                      no-undef
+   300:30  warning  'canvas' is not defined                      no-undef
+   301:30  warning  'canvas' is not defined                      no-undef
+   320:9   warning  'canvas' is not defined                      no-undef
+   323:9   warning  'canvas' is not defined                      no-undef
+   337:9   warning  'canvas' is not defined                      no-undef
+   339:9   warning  'canvas' is not defined                      no-undef
+   340:9   warning  'canvas' is not defined                      no-undef
+   341:9   warning  'canvas' is not defined                      no-undef
+   342:9   warning  'canvas' is not defined                      no-undef
+   343:9   warning  'canvas' is not defined                      no-undef
+   344:9   warning  'canvas' is not defined                      no-undef
+   345:9   warning  'canvas' is not defined                      no-undef
+   347:9   warning  'canvas' is not defined                      no-undef
+   348:9   warning  'canvas' is not defined                      no-undef
+   349:9   warning  'canvas' is not defined                      no-undef
+   350:9   warning  'canvas' is not defined                      no-undef
+   351:9   warning  'canvas' is not defined                      no-undef
+   352:9   warning  'canvas' is not defined                      no-undef
+   353:9   warning  'canvas' is not defined                      no-undef
+   354:9   warning  'canvas' is not defined                      no-undef
+   355:9   warning  'canvas' is not defined                      no-undef
+   356:9   warning  'canvas' is not defined                      no-undef
+   357:9   warning  'canvas' is not defined                      no-undef
+   358:9   warning  'canvas' is not defined                      no-undef
+   360:9   warning  'canvas' is not defined                      no-undef
+   361:9   warning  'canvas' is not defined                      no-undef
+   362:9   warning  'canvas' is not defined                      no-undef
+   363:9   warning  'canvas' is not defined                      no-undef
+   364:9   warning  'canvas' is not defined                      no-undef
+   365:9   warning  'canvas' is not defined                      no-undef
+   366:9   warning  'canvas' is not defined                      no-undef
+   367:9   warning  'canvas' is not defined                      no-undef
+   368:9   warning  'canvas' is not defined                      no-undef
+   369:9   warning  'canvas' is not defined                      no-undef
+   371:9   warning  'canvas' is not defined                      no-undef
+   372:9   warning  'canvas' is not defined                      no-undef
+   373:9   warning  'canvas' is not defined                      no-undef
+   374:9   warning  'canvas' is not defined                      no-undef
+   375:9   warning  'canvas' is not defined                      no-undef
+   376:9   warning  'canvas' is not defined                      no-undef
+   377:9   warning  'canvas' is not defined                      no-undef
+   378:9   warning  'canvas' is not defined                      no-undef
+   379:9   warning  'canvas' is not defined                      no-undef
+   380:9   warning  'canvas' is not defined                      no-undef
+   382:9   warning  'canvas' is not defined                      no-undef
+   383:9   warning  'canvas' is not defined                      no-undef
+   384:9   warning  'canvas' is not defined                      no-undef
+   385:9   warning  'canvas' is not defined                      no-undef
+   386:9   warning  'canvas' is not defined                      no-undef
+   387:9   warning  'canvas' is not defined                      no-undef
+   388:9   warning  'canvas' is not defined                      no-undef
+   389:9   warning  'canvas' is not defined                      no-undef
+   390:9   warning  'canvas' is not defined                      no-undef
+   391:9   warning  'canvas' is not defined                      no-undef
+   393:9   warning  'canvas' is not defined                      no-undef
+   394:9   warning  'canvas' is not defined                      no-undef
+   395:9   warning  'canvas' is not defined                      no-undef
+   396:9   warning  'canvas' is not defined                      no-undef
+   397:9   warning  'canvas' is not defined                      no-undef
+   398:9   warning  'canvas' is not defined                      no-undef
+   399:9   warning  'canvas' is not defined                      no-undef
+   400:9   warning  'canvas' is not defined                      no-undef
+   401:9   warning  'canvas' is not defined                      no-undef
+   402:9   warning  'canvas' is not defined                      no-undef
+   404:9   warning  'canvas' is not defined                      no-undef
+   405:9   warning  'canvas' is not defined                      no-undef
+   406:9   warning  'canvas' is not defined                      no-undef
+   407:9   warning  'canvas' is not defined                      no-undef
+   408:9   warning  'canvas' is not defined                      no-undef
+   409:9   warning  'canvas' is not defined                      no-undef
+   410:9   warning  'canvas' is not defined                      no-undef
+   411:9   warning  'canvas' is not defined                      no-undef
+   412:9   warning  'canvas' is not defined                      no-undef
+   413:9   warning  'canvas' is not defined                      no-undef
+   415:9   warning  'canvas' is not defined                      no-undef
+   416:9   warning  'canvas' is not defined                      no-undef
+   417:9   warning  'canvas' is not defined                      no-undef
+   418:9   warning  'canvas' is not defined                      no-undef
+   419:9   warning  'canvas' is not defined                      no-undef
+   420:9   warning  'canvas' is not defined                      no-undef
+   421:9   warning  'canvas' is not defined                      no-undef
+   422:9   warning  'canvas' is not defined                      no-undef
+   423:9   warning  'canvas' is not defined                      no-undef
+   424:9   warning  'canvas' is not defined                      no-undef
+   426:9   warning  'canvas' is not defined                      no-undef
+   427:9   warning  'canvas' is not defined                      no-undef
+   428:9   warning  'canvas' is not defined                      no-undef
+   429:9   warning  'canvas' is not defined                      no-undef
+   430:9   warning  'canvas' is not defined                      no-undef
+   431:9   warning  'canvas' is not defined                      no-undef
+   432:9   warning  'canvas' is not defined                      no-undef
+   433:9   warning  'canvas' is not defined                      no-undef
+   434:9   warning  'canvas' is not defined                      no-undef
+   435:9   warning  'canvas' is not defined                      no-undef
+   437:9   warning  'canvas' is not defined                      no-undef
+   438:9   warning  'canvas' is not defined                      no-undef
+   439:9   warning  'canvas' is not defined                      no-undef
+   440:9   warning  'canvas' is not defined                      no-undef
+   441:9   warning  'canvas' is not defined                      no-undef
+   442:9   warning  'canvas' is not defined                      no-undef
+   443:9   warning  'canvas' is not defined                      no-undef
+   444:9   warning  'canvas' is not defined                      no-undef
+   445:9   warning  'canvas' is not defined                      no-undef
+   446:9   warning  'canvas' is not defined                      no-undef
+   448:9   warning  'canvas' is not defined                      no-undef
+   449:9   warning  'canvas' is not defined                      no-undef
+   450:9   warning  'canvas' is not defined                      no-undef
+   451:9   warning  'canvas' is not defined                      no-undef
+   452:9   warning  'canvas' is not defined                      no-undef
+   453:9   warning  'canvas' is not defined                      no-undef
+   454:9   warning  'canvas' is not defined                      no-undef
+   455:9   warning  'canvas' is not defined                      no-undef
+   456:9   warning  'canvas' is not defined                      no-undef
+   457:9   warning  'canvas' is not defined                      no-undef
+   461:9   warning  'canvas' is not defined                      no-undef
+   462:9   warning  'canvas' is not defined                      no-undef
+   463:9   warning  'canvas' is not defined                      no-undef
+   485:9   warning  'canvas' is not defined                      no-undef
+   495:24  warning  'canvas' is not defined                      no-undef
+   496:24  warning  'canvas' is not defined                      no-undef
+   506:9   warning  'canvas' is not defined                      no-undef
+   507:9   warning  'canvas' is not defined                      no-undef
+   509:9   warning  'canvas' is not defined                      no-undef
+   510:9   warning  'canvas' is not defined                      no-undef
+   511:9   warning  'canvas' is not defined                      no-undef
+   512:9   warning  'canvas' is not defined                      no-undef
+   513:9   warning  'canvas' is not defined                      no-undef
+   515:9   warning  'canvas' is not defined                      no-undef
+   516:9   warning  'canvas' is not defined                      no-undef
+   517:9   warning  'canvas' is not defined                      no-undef
+   518:9   warning  'canvas' is not defined                      no-undef
+   519:9   warning  'canvas' is not defined                      no-undef
+   521:9   warning  'canvas' is not defined                      no-undef
+   522:9   warning  'canvas' is not defined                      no-undef
+   523:9   warning  'canvas' is not defined                      no-undef
+   524:9   warning  'canvas' is not defined                      no-undef
+   525:9   warning  'canvas' is not defined                      no-undef
+   527:9   warning  'canvas' is not defined                      no-undef
+   528:9   warning  'canvas' is not defined                      no-undef
+   529:9   warning  'canvas' is not defined                      no-undef
+   530:9   warning  'canvas' is not defined                      no-undef
+   531:9   warning  'canvas' is not defined                      no-undef
+   533:9   warning  'canvas' is not defined                      no-undef
+   534:9   warning  'canvas' is not defined                      no-undef
+   535:9   warning  'canvas' is not defined                      no-undef
+   536:9   warning  'canvas' is not defined                      no-undef
+   537:9   warning  'canvas' is not defined                      no-undef
+   539:9   warning  'canvas' is not defined                      no-undef
+   540:9   warning  'canvas' is not defined                      no-undef
+   541:9   warning  'canvas' is not defined                      no-undef
+   542:9   warning  'canvas' is not defined                      no-undef
+   543:9   warning  'canvas' is not defined                      no-undef
+   567:29  warning  'canvas' is not defined                      no-undef
+   568:29  warning  'canvas' is not defined                      no-undef
+   571:14  warning  'canvas' is not defined                      no-undef
+   572:14  warning  'canvas' is not defined                      no-undef
+   573:14  warning  'canvas' is not defined                      no-undef
+   574:14  warning  'canvas' is not defined                      no-undef
+   575:14  warning  'canvas' is not defined                      no-undef
+   576:14  warning  'canvas' is not defined                      no-undef
+   578:14  warning  'canvas' is not defined                      no-undef
+   579:14  warning  'canvas' is not defined                      no-undef
+   580:14  warning  'canvas' is not defined                      no-undef
+   581:14  warning  'canvas' is not defined                      no-undef
+   582:14  warning  'canvas' is not defined                      no-undef
+   583:14  warning  'canvas' is not defined                      no-undef
+   585:14  warning  'canvas' is not defined                      no-undef
+   586:14  warning  'canvas' is not defined                      no-undef
+   587:14  warning  'canvas' is not defined                      no-undef
+   588:14  warning  'canvas' is not defined                      no-undef
+   589:14  warning  'canvas' is not defined                      no-undef
+   590:14  warning  'canvas' is not defined                      no-undef
+   592:14  warning  'canvas' is not defined                      no-undef
+   593:14  warning  'canvas' is not defined                      no-undef
+   594:14  warning  'canvas' is not defined                      no-undef
+   595:14  warning  'canvas' is not defined                      no-undef
+   596:14  warning  'canvas' is not defined                      no-undef
+   597:14  warning  'canvas' is not defined                      no-undef
+   599:14  warning  'canvas' is not defined                      no-undef
+   600:14  warning  'canvas' is not defined                      no-undef
+   601:14  warning  'canvas' is not defined                      no-undef
+   602:14  warning  'canvas' is not defined                      no-undef
+   603:14  warning  'canvas' is not defined                      no-undef
+   604:14  warning  'canvas' is not defined                      no-undef
+   606:14  warning  'canvas' is not defined                      no-undef
+   607:14  warning  'canvas' is not defined                      no-undef
+   608:14  warning  'canvas' is not defined                      no-undef
+   609:14  warning  'canvas' is not defined                      no-undef
+   610:14  warning  'canvas' is not defined                      no-undef
+   611:14  warning  'canvas' is not defined                      no-undef
+   642:24  warning  'canvas' is not defined                      no-undef
+   643:24  warning  'canvas' is not defined                      no-undef
+   648:9   warning  'canvas' is not defined                      no-undef
+   649:9   warning  'canvas' is not defined                      no-undef
+   650:9   warning  'canvas' is not defined                      no-undef
+   651:9   warning  'canvas' is not defined                      no-undef
+   652:9   warning  'canvas' is not defined                      no-undef
+   653:9   warning  'canvas' is not defined                      no-undef
+   655:9   warning  'canvas' is not defined                      no-undef
+   656:9   warning  'canvas' is not defined                      no-undef
+   657:9   warning  'canvas' is not defined                      no-undef
+   658:9   warning  'canvas' is not defined                      no-undef
+   659:9   warning  'canvas' is not defined                      no-undef
+   660:9   warning  'canvas' is not defined                      no-undef
+   662:9   warning  'canvas' is not defined                      no-undef
+   663:9   warning  'canvas' is not defined                      no-undef
+   664:9   warning  'canvas' is not defined                      no-undef
+   665:9   warning  'canvas' is not defined                      no-undef
+   666:9   warning  'canvas' is not defined                      no-undef
+   667:9   warning  'canvas' is not defined                      no-undef
+   669:9   warning  'canvas' is not defined                      no-undef
+   670:9   warning  'canvas' is not defined                      no-undef
+   671:9   warning  'canvas' is not defined                      no-undef
+   699:24  warning  'canvas' is not defined                      no-undef
+   700:24  warning  'canvas' is not defined                      no-undef
+   701:24  warning  'canvas' is not defined                      no-undef
+   710:9   warning  'canvas' is not defined                      no-undef
+   711:13  warning  'canvas' is not defined                      no-undef
+   712:13  warning  'canvas' is not defined                      no-undef
+   713:13  warning  'canvas' is not defined                      no-undef
+   714:13  warning  'canvas' is not defined                      no-undef
+   715:13  warning  'canvas' is not defined                      no-undef
+   717:9   warning  'canvas' is not defined                      no-undef
+   718:13  warning  'canvas' is not defined                      no-undef
+   719:13  warning  'canvas' is not defined                      no-undef
+   720:13  warning  'canvas' is not defined                      no-undef
+   721:13  warning  'canvas' is not defined                      no-undef
+   722:13  warning  'canvas' is not defined                      no-undef
+   724:9   warning  'canvas' is not defined                      no-undef
+   725:9   warning  'canvas' is not defined                      no-undef
+   726:9   warning  'canvas' is not defined                      no-undef
+   727:9   warning  'canvas' is not defined                      no-undef
+   728:9   warning  'canvas' is not defined                      no-undef
+   729:9   warning  'canvas' is not defined                      no-undef
+   731:9   warning  'canvas' is not defined                      no-undef
+   732:13  warning  'canvas' is not defined                      no-undef
+   733:13  warning  'canvas' is not defined                      no-undef
+   756:24  warning  'canvas' is not defined                      no-undef
+   757:24  warning  'canvas' is not defined                      no-undef
+   759:9   warning  'canvas' is not defined                      no-undef
+   760:9   warning  'canvas' is not defined                      no-undef
+   761:9   warning  'canvas' is not defined                      no-undef
+   762:9   warning  'canvas' is not defined                      no-undef
+   763:9   warning  'canvas' is not defined                      no-undef
+   764:9   warning  'canvas' is not defined                      no-undef
+   776:34  warning  Empty block statement                        no-empty
+   785:5   warning  'Canvas' is assigned a value but never used  no-unused-vars
+   791:19  warning  'h' is not defined                           no-undef
+   812:38  warning  'canvas' is not defined                      no-undef
+   812:52  warning  'canvas' is not defined                      no-undef
+   841:9   warning  'terminal' is not defined                    no-undef
+   844:13  warning  'canvas' is not defined                      no-undef
+   845:17  warning  'canvas' is not defined                      no-undef
+   845:39  warning  'canvas' is not defined                      no-undef
+   846:17  warning  'canvas' is not defined                      no-undef
+   847:17  warning  'terminal' is not defined                    no-undef
+   852:13  warning  'canvas' is not defined                      no-undef
+   853:13  warning  'canvas' is not defined                      no-undef
+   853:33  warning  'canvas' is not defined                      no-undef
+   854:13  warning  'canvas' is not defined                      no-undef
+   855:13  warning  'terminal' is not defined                    no-undef
+   859:29  warning  'buttons' is not defined                     no-undef
+   860:31  warning  'buttons' is not defined                     no-undef
+   868:9   warning  'terminal' is not defined                    no-undef
+   872:29  warning  'buttons' is not defined                     no-undef
+   873:31  warning  'buttons' is not defined                     no-undef
+   881:9   warning  'terminal' is not defined                    no-undef
+   889:5   warning  'canvas' is not defined                      no-undef
+   908:25  warning  'buttons' is not defined                     no-undef
+   909:9   warning  'buttons' is not defined                     no-undef
+   914:21  warning  'canvas' is not defined                      no-undef
+   917:21  warning  'canvas' is not defined                      no-undef
+   920:21  warning  'canvas' is not defined                      no-undef
+   923:21  warning  'canvas' is not defined                      no-undef
+   926:21  warning  'canvas' is not defined                      no-undef
+   929:21  warning  'canvas' is not defined                      no-undef
+   932:21  warning  'canvas' is not defined                      no-undef
+   935:21  warning  'canvas' is not defined                      no-undef
+   938:21  warning  'canvas' is not defined                      no-undef
+   941:21  warning  'canvas' is not defined                      no-undef
+   944:21  warning  'canvas' is not defined                      no-undef
+   947:21  warning  'canvas' is not defined                      no-undef
+   950:21  warning  'canvas' is not defined                      no-undef
+   953:21  warning  'canvas' is not defined                      no-undef
+   964:17  warning  'canvas' is not defined                      no-undef
+   967:17  warning  'canvas' is not defined                      no-undef
+   979:13  warning  'canvas' is not defined                      no-undef
+   980:13  warning  'canvas' is not defined                      no-undef
+   980:43  warning  'canvas' is not defined                      no-undef
+   981:13  warning  'canvas' is not defined                      no-undef
+   982:20  warning  'canvas' is not defined                      no-undef
+   983:34  warning  'canvas' is not defined                      no-undef
+   984:13  warning  'canvas' is not defined                      no-undef
+   985:20  warning  'canvas' is not defined                      no-undef
+   987:13  warning  'canvas' is not defined                      no-undef
+   988:13  warning  'canvas' is not defined                      no-undef
+   989:20  warning  'canvas' is not defined                      no-undef
+   990:17  warning  'temp' is already defined                    no-redeclare
+   991:13  warning  'canvas' is not defined                      no-undef
+   992:13  warning  'canvas' is not defined                      no-undef
+   993:20  warning  'canvas' is not defined                      no-undef
+   999:17  warning  'canvas' is not defined                      no-undef
+  1000:17  warning  'canvas' is not defined                      no-undef
+  1008:20  warning  'canvas' is not defined                      no-undef
+  1009:17  warning  'temp' is already defined                    no-redeclare
+  1010:13  warning  'canvas' is not defined                      no-undef
+  1011:13  warning  'canvas' is not defined                      no-undef
+  1012:20  warning  'canvas' is not defined                      no-undef
+  1013:13  warning  'canvas' is not defined                      no-undef
+  1014:13  warning  'canvas' is not defined                      no-undef
+  1015:20  warning  'canvas' is not defined                      no-undef
+  1016:13  warning  'canvas' is not defined                      no-undef
+  1017:13  warning  'canvas' is not defined                      no-undef
+  1019:18  warning  'canvas' is not defined                      no-undef
+  1020:13  warning  'canvas' is not defined                      no-undef
+  1021:13  warning  'canvas' is not defined                      no-undef
+  1024:13  warning  'canvas' is not defined                      no-undef
+  1025:17  warning  'canvas' is not defined                      no-undef
+  1026:17  warning  'canvas' is not defined                      no-undef
+  1027:24  warning  'canvas' is not defined                      no-undef
+  1028:17  warning  'canvas' is not defined                      no-undef
+  1032:17  warning  'canvas' is not defined                      no-undef
+  1033:5   warning  'canvas' is not defined                      no-undef
+  1042:21  warning  'canvas' is not defined                      no-undef
+  1043:13  warning  'canvas' is not defined                      no-undef
+  1044:17  warning  'canvas' is not defined                      no-undef
+  1045:17  warning  'canvas' is not defined                      no-undef
+  1045:41  warning  'canvas' is not defined                      no-undef
+  1046:33  warning  'canvas' is not defined                      no-undef
+  1046:64  warning  'canvas' is not defined                      no-undef
+  1049:17  warning  'canvas' is not defined                      no-undef
+  1050:17  warning  'canvas' is not defined                      no-undef
+  1052:20  warning  'canvas' is not defined                      no-undef
+  1053:17  warning  'canvas' is not defined                      no-undef
+  1054:17  warning  'canvas' is not defined                      no-undef
+  1054:41  warning  'canvas' is not defined                      no-undef
+  1055:33  warning  'canvas' is not defined                      no-undef
+  1055:64  warning  'canvas' is not defined                      no-undef
+  1057:24  warning  'canvas' is not defined                      no-undef
+  1058:17  warning  'canvas' is not defined                      no-undef
+  1058:41  warning  'canvas' is not defined                      no-undef
+  1059:33  warning  'canvas' is not defined                      no-undef
+  1059:64  warning  'canvas' is not defined                      no-undef
+  1061:24  warning  'canvas' is not defined                      no-undef
+  1062:17  warning  'canvas' is not defined                      no-undef
+  1062:41  warning  'canvas' is not defined                      no-undef
+  1063:33  warning  'canvas' is not defined                      no-undef
+  1063:64  warning  'canvas' is not defined                      no-undef
+  1066:17  warning  'canvas' is not defined                      no-undef
+  1067:17  warning  'canvas' is not defined                      no-undef
+  1069:17  warning  'canvas' is not defined                      no-undef
+  1070:17  warning  'canvas' is not defined                      no-undef
+  1070:41  warning  'canvas' is not defined                      no-undef
+  1074:17  warning  'canvas' is not defined                      no-undef
+  1075:17  warning  'canvas' is not defined                      no-undef
+  1077:20  warning  'canvas' is not defined                      no-undef
+  1078:17  warning  'canvas' is not defined                      no-undef
+  1079:17  warning  'canvas' is not defined                      no-undef
+  1079:41  warning  'canvas' is not defined                      no-undef
+  1080:33  warning  'canvas' is not defined                      no-undef
+  1080:64  warning  'canvas' is not defined                      no-undef
+  1082:24  warning  'canvas' is not defined                      no-undef
+  1083:17  warning  'canvas' is not defined                      no-undef
+  1083:41  warning  'canvas' is not defined                      no-undef
+  1084:33  warning  'canvas' is not defined                      no-undef
+  1084:64  warning  'canvas' is not defined                      no-undef
+  1087:17  warning  'canvas' is not defined                      no-undef
+  1088:17  warning  'canvas' is not defined                      no-undef
+  1090:17  warning  'canvas' is not defined                      no-undef
+  1091:17  warning  'canvas' is not defined                      no-undef
+  1091:41  warning  'canvas' is not defined                      no-undef
+  1095:17  warning  'canvas' is not defined                      no-undef
+  1096:17  warning  'canvas' is not defined                      no-undef
+  1098:20  warning  'canvas' is not defined                      no-undef
+  1099:17  warning  'canvas' is not defined                      no-undef
+  1100:17  warning  'canvas' is not defined                      no-undef
+  1100:41  warning  'canvas' is not defined                      no-undef
+  1101:33  warning  'canvas' is not defined                      no-undef
+  1101:64  warning  'canvas' is not defined                      no-undef
+  1103:24  warning  'canvas' is not defined                      no-undef
+  1104:17  warning  'canvas' is not defined                      no-undef
+  1104:41  warning  'canvas' is not defined                      no-undef
+  1105:33  warning  'canvas' is not defined                      no-undef
+  1105:64  warning  'canvas' is not defined                      no-undef
+  1108:17  warning  'canvas' is not defined                      no-undef
+  1109:17  warning  'canvas' is not defined                      no-undef
+  1111:17  warning  'canvas' is not defined                      no-undef
+  1112:17  warning  'canvas' is not defined                      no-undef
+  1112:41  warning  'canvas' is not defined                      no-undef
+  1116:17  warning  'canvas' is not defined                      no-undef
+  1117:17  warning  'canvas' is not defined                      no-undef
+  1119:20  warning  'canvas' is not defined                      no-undef
+  1120:17  warning  'canvas' is not defined                      no-undef
+  1121:17  warning  'canvas' is not defined                      no-undef
+  1121:41  warning  'canvas' is not defined                      no-undef
+  1122:33  warning  'canvas' is not defined                      no-undef
+  1122:64  warning  'canvas' is not defined                      no-undef
+  1124:24  warning  'canvas' is not defined                      no-undef
+  1125:17  warning  'canvas' is not defined                      no-undef
+  1125:41  warning  'canvas' is not defined                      no-undef
+  1126:33  warning  'canvas' is not defined                      no-undef
+  1126:64  warning  'canvas' is not defined                      no-undef
+  1129:17  warning  'canvas' is not defined                      no-undef
+  1130:17  warning  'canvas' is not defined                      no-undef
+  1132:17  warning  'canvas' is not defined                      no-undef
+  1133:17  warning  'canvas' is not defined                      no-undef
+  1133:41  warning  'canvas' is not defined                      no-undef
+  1137:17  warning  'canvas' is not defined                      no-undef
+  1138:17  warning  'canvas' is not defined                      no-undef
+  1140:20  warning  'canvas' is not defined                      no-undef
+  1141:17  warning  'canvas' is not defined                      no-undef
+  1142:17  warning  'canvas' is not defined                      no-undef
+  1142:41  warning  'canvas' is not defined                      no-undef
+  1143:33  warning  'canvas' is not defined                      no-undef
+  1143:64  warning  'canvas' is not defined                      no-undef
+  1145:24  warning  'canvas' is not defined                      no-undef
+  1146:17  warning  'canvas' is not defined                      no-undef
+  1146:41  warning  'canvas' is not defined                      no-undef
+  1147:33  warning  'canvas' is not defined                      no-undef
+  1147:64  warning  'canvas' is not defined                      no-undef
+  1149:24  warning  'canvas' is not defined                      no-undef
+  1150:17  warning  'canvas' is not defined                      no-undef
+  1150:41  warning  'canvas' is not defined                      no-undef
+  1151:33  warning  'canvas' is not defined                      no-undef
+  1151:64  warning  'canvas' is not defined                      no-undef
+  1154:17  warning  'canvas' is not defined                      no-undef
+  1155:17  warning  'canvas' is not defined                      no-undef
+  1157:17  warning  'canvas' is not defined                      no-undef
+  1158:17  warning  'canvas' is not defined                      no-undef
+  1158:41  warning  'canvas' is not defined                      no-undef
+  1162:17  warning  'canvas' is not defined                      no-undef
+  1163:17  warning  'canvas' is not defined                      no-undef
+  1165:20  warning  'canvas' is not defined                      no-undef
+  1166:17  warning  'canvas' is not defined                      no-undef
+  1167:17  warning  'canvas' is not defined                      no-undef
+  1167:41  warning  'canvas' is not defined                      no-undef
+  1168:33  warning  'canvas' is not defined                      no-undef
+  1168:64  warning  'canvas' is not defined                      no-undef
+  1170:24  warning  'canvas' is not defined                      no-undef
+  1171:17  warning  'canvas' is not defined                      no-undef
+  1171:41  warning  'canvas' is not defined                      no-undef
+  1172:33  warning  'canvas' is not defined                      no-undef
+  1172:64  warning  'canvas' is not defined                      no-undef
+  1175:17  warning  'canvas' is not defined                      no-undef
+  1176:17  warning  'canvas' is not defined                      no-undef
+  1178:17  warning  'canvas' is not defined                      no-undef
+  1179:17  warning  'canvas' is not defined                      no-undef
+  1179:41  warning  'canvas' is not defined                      no-undef
+  1183:17  warning  'canvas' is not defined                      no-undef
+  1184:17  warning  'canvas' is not defined                      no-undef
+  1186:20  warning  'canvas' is not defined                      no-undef
+  1187:17  warning  'canvas' is not defined                      no-undef
+  1188:17  warning  'canvas' is not defined                      no-undef
+  1188:41  warning  'canvas' is not defined                      no-undef
+  1189:33  warning  'canvas' is not defined                      no-undef
+  1189:64  warning  'canvas' is not defined                      no-undef
+  1191:24  warning  'canvas' is not defined                      no-undef
+  1192:17  warning  'canvas' is not defined                      no-undef
+  1192:41  warning  'canvas' is not defined                      no-undef
+  1193:33  warning  'canvas' is not defined                      no-undef
+  1193:64  warning  'canvas' is not defined                      no-undef
+  1196:17  warning  'canvas' is not defined                      no-undef
+  1197:17  warning  'canvas' is not defined                      no-undef
+  1199:17  warning  'canvas' is not defined                      no-undef
+  1200:17  warning  'canvas' is not defined                      no-undef
+  1200:41  warning  'canvas' is not defined                      no-undef
+  1204:17  warning  'canvas' is not defined                      no-undef
+  1205:17  warning  'canvas' is not defined                      no-undef
+  1219:9   warning  'canvas' is not defined                      no-undef
+  1227:5   warning  'canvas' is not defined                      no-undef
+  1228:5   warning  'canvas' is not defined                      no-undef
+  1229:5   warning  'canvas' is not defined                      no-undef
+  1230:5   warning  'canvas' is not defined                      no-undef
+  1231:5   warning  'canvas' is not defined                      no-undef
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5433   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:5916   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6170   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6614   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7404   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9497   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9807   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11608  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12183  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12221  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13234  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13546  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15374  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15645  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15843  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16217  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16907  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18727  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19071  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20240  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21514  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21625  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23791  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:33395  warning  Empty block statement                                                      no-empty
+  2:37269  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:38490  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:38606  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:39234  warning  Empty block statement                                                      no-empty
+  2:46727  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:49033  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:50593  warning  Empty block statement                                                      no-empty
+  2:58406  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:59575  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65215  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66958  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67024  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67328  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67394  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67801  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:68078  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73449  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75043  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75823  warning  'r.href' is assigned to itself                                             no-self-assign
+  2:80414  warning  Empty block statement                                                      no-empty
+  2:83525  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87869  warning  'define' is not defined                                                    no-undef
+  2:87881  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-energy-band-gap-iitk/exp-energy-band-gap-iitk/experiment/simulation/js/popper.min.js
+  4:72     warning  'module' is not defined           no-undef
+  4:118    warning  'define' is not defined           no-undef
+  4:129    warning  'define' is not defined           no-undef
+  4:2812   warning  Empty block statement             no-empty
+  4:10441  warning  Unnecessary escape character: \-  no-useless-escape
+  4:10884  warning  Unnecessary escape character: \-  no-useless-escape
+  4:14603  warning  'global' is not defined           no-undef
+
+✖ 592 problems (0 errors, 592 warnings)
+
