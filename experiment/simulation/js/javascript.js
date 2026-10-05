@@ -1,14 +1,47 @@
+var graphCheckPassed = false;
+
+function openGraphQuiz() {
+    var modal = document.getElementById('login');
+    if (!modal) return;
+    modal.style.display = 'block';
+    modal.classList.add('show');
+    document.body.classList.add('modal-open');
+}
+
+function closeGraphQuiz() {
+    var modal = document.getElementById('login');
+    if (!modal) return;
+    modal.style.display = 'none';
+    modal.classList.remove('show');
+    document.body.classList.remove('modal-open');
+}
+
+function setPowerButtons(enabled) {
+    var enableBtn = document.getElementById('btn_main');
+    var disableBtn = document.getElementById('btn_main2');
+    if (!enableBtn || !disableBtn) return;
+    if (enabled) {
+        enableBtn.style.display = '';
+        disableBtn.style.display = 'none';
+    } else {
+        enableBtn.style.display = 'none';
+        disableBtn.style.display = '';
+    }
+}
+
  function main() {
-     btn_main.style.display = 'none';
-     btn_main2.style.display = '';
+     if (!graphCheckPassed) {
+         openGraphQuiz();
+         return;
+     }
+     setPowerButtons(false);
      document.getElementById('calc_volt').disabled=false;
      document.getElementById('calc_volt').style.cursor="pointer";
      document.getElementById('calc_volt').classList.remove("disabled");
 
 }
  function main2() {
-     btn_main2.style.display = 'none';
-     btn_main.style.display = '';
+     setPowerButtons(true);
  }
 
 function cont() {
@@ -44,10 +77,18 @@ function cl1() {
 }
  function cl2() {
      alert('You choose the correct answer ! Please proceed Further...');
+     graphCheckPassed = true;
      document.getElementById('container').disabled=false;
      document.getElementById('container').style.cursor="pointer";
      document.getElementById('container').classList.remove("disabled");
+     closeGraphQuiz();
+
+     document.getElementById('calc_volt').disabled=false;
+     document.getElementById('calc_volt').style.cursor="pointer";
+     document.getElementById('calc_volt').classList.remove("disabled");
  }
+
+setPowerButtons(true);
 
  function cl3() {
      alert('This is wrong answer ! Try again...');

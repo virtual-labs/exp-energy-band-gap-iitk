@@ -1,3 +1,11 @@
+<div style="width: 100%; max-width: 900px; margin: 16px auto 24px; padding: 0 12px; box-sizing: border-box;">
+	<h2 style="text-align: center;">How to Run the Simulation</h2>
+	<video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto; max-height: 75vh; object-fit: contain; background: #111; border-radius: 8px;">
+		<source src="simulation/image/Energy_band_gap.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
 1.	Click the “Enable Power” button.<br>
 2.	Choose the correct image.<br>
 3.	After correct answer “X” (cross) the image.<br>
