@@ -20,6 +20,10 @@ function setPowerButtons(enabled) {
     var enableBtn = document.getElementById('btn_main');
     var disableBtn = document.getElementById('btn_main2');
     if (!enableBtn || !disableBtn) return;
+    var enableButtonContainer = enableBtn.parentElement;
+    if (enableButtonContainer) {
+        enableButtonContainer.style.display = enabled ? '' : 'none';
+    }
     if (enabled) {
         enableBtn.style.display = '';
         disableBtn.style.display = 'none';
