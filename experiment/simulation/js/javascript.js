@@ -64,6 +64,7 @@ function cont() {
     document.getElementById('redo').style.cursor="pointer";
     document.getElementById('reset').disabled=false;
     document.getElementById('reset').style.cursor="pointer";
+    syncSinglePlacementControls();
 
 }
 
@@ -118,12 +119,13 @@ var Terminal = function () {
 
 var getMousePos = function (canvas, e) {
     var boundingClientRect = canvas.getBoundingClientRect();
-    var tx = e.clientX - boundingClientRect.left;
-    var ty = e.clientY - boundingClientRect.top;
-    console.log(boundingClientRect.left);
+    var scaleX = canvas.width / boundingClientRect.width;
+    var scaleY = canvas.height / boundingClientRect.height;
+    var tx = (e.clientX - boundingClientRect.left) * scaleX;
+    var ty = (e.clientY - boundingClientRect.top) * scaleY;
     return {
-        x: tx < 0 ? 0 : tx,
-        y: ty < 0 ? 0 : ty
+        x: Math.max(0, Math.min(canvas.width, tx)),
+        y: Math.max(0, Math.min(canvas.height, ty))
     };
 };
 
@@ -837,12 +839,14 @@ var Canvas = function () {
         this.element = [];
         //this.name=[];
         this.connection = [];
+        syncSinglePlacementControls();
         this.draw();
         terminal.update("Reset Done..");
     }
     this.undo = function () {
         if (canvas.element.length > 0) {
                 canvas.redoArray.push(canvas.element.pop());
+                syncSinglePlacementControls();
                 canvas.draw();
                 terminal.update("Undo Done..");
 
@@ -851,6 +855,7 @@ var Canvas = function () {
     this.redo = function () {
         if (canvas.redoArray.length > 0) {
             canvas.element.push(canvas.redoArray.pop());
+            syncSinglePlacementControls();
             canvas.draw();
             terminal.update("Redo Done..");
         }
@@ -882,22 +887,54 @@ var Canvas = function () {
     }
 };
 
+var singlePlacementControls = [
+    { id: "pndiode", action: operationType.DRAW_RESISTOR, Type: Resistor },
+    { id: "battery", action: operationType.DRAW_CELL, Type: Cell },
+    { id: "ammeter", action: operationType.DRAW_GALVANOMETER, Type: Galvanometer },
+    { id: "voltmeter", action: operationType.DRAW_POTENTIOMETER, Type: Potentiometer }
+];
+
+function syncSinglePlacementControls() {
+    if (!window.canvas) {
+        return;
+    }
+
+    for (var i = 0; i < singlePlacementControls.length; i++) {
+        var control = singlePlacementControls[i];
+        var placed = window.canvas.element.some(function (element) {
+            return element instanceof control.Type;
+        });
+        var button = document.getElementById(control.id);
+        button.disabled = placed;
+        button.style.cursor = placed ? "not-allowed" : "pointer";
+
+        if (placed && window.canvas.action === control.action) {
+            window.canvas.action = null;
+        }
+    }
+}
+
 window.onload = function () {
     window.terminal = new Terminal();
     window.canvas = new this.Canvas();
     window.buttons = this.document.getElementsByClassName("btn");
     canvas.stop();
-    this.document.addEventListener("mousedown", function (e) {
-        var tempPos = getMousePos(window.canvas.obj, e);
+    window.canvas.obj.addEventListener("pointerdown", function (e) {
+        if (!e.isPrimary || e.button !== 0) {
+            return;
+        }
+        var tempPos = getMousePos(this, e);
         update(tempPos.x, tempPos.y);
         if (typeof mouseLeftDown === "function") {
-            if (e.button == 0)
-                mouseLeftDown(tempPos.x, tempPos.y);
+            mouseLeftDown(tempPos.x, tempPos.y);
         }
     }, false);
 
-    this.document.addEventListener("mousemove", function (e) {
-        var tempPos = getMousePos(window.canvas.obj, e);
+    window.canvas.obj.addEventListener("pointermove", function (e) {
+        if (!e.isPrimary) {
+            return;
+        }
+        var tempPos = getMousePos(this, e);
         update(tempPos.x, tempPos.y);
         if (typeof mouseMove === "function") {
             mouseMove(tempPos.x, tempPos.y);
@@ -1029,6 +1066,7 @@ function mouseLeftDown(x, y) {
             }
         }
     }
+    syncSinglePlacementControls();
     console.log(canvas.element);
     canvas.draw();
     hover(x, y);
@@ -1231,6 +1269,3 @@ function poinHoverCircle(x, y, r) {
     canvas.context.closePath();
     document.getElementsByTagName("body")[0].style.cursor = "pointer";
 }
-
-
-
