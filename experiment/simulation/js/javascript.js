@@ -179,7 +179,11 @@ var point = function (canvasId, imageId, x, y, r, type, name) {
             canvas.context.beginPath();
             canvas.context.arc(this.point.x, this.point.y, 5, 0, 2 * Math.PI);
             canvas.context.lineWidth = "4";
-            canvas.context.strokeStyle = "black";
+            canvas.context.strokeStyle = this.isUserPoint ? "skyblue" : "black";
+            if (this.isUserPoint) {
+                canvas.context.fillStyle = "skyblue";
+                canvas.context.fill();
+            }
             canvas.context.stroke();
             canvas.context.closePath();
 
@@ -894,6 +898,36 @@ var singlePlacementControls = [
     { id: "voltmeter", action: operationType.DRAW_POTENTIOMETER, Type: Potentiometer }
 ];
 
+function getConnectionTerminals(element) {
+    if (element instanceof Resistor || element instanceof Cell || element instanceof Galvanometer) {
+        return [element.A, element.B];
+    }
+    if (element instanceof Potentiometer) {
+        return [element.O, element.B];
+    }
+    return [];
+}
+
+function findConnectionTerminal(x, y) {
+    var nearestTerminal = null;
+    var nearestDistance = 30;
+
+    for (var i = 0; i < canvas.element.length; i++) {
+        var terminals = getConnectionTerminals(canvas.element[i]);
+        for (var j = 0; j < terminals.length; j++) {
+            var dx = x - terminals[j].point.x;
+            var dy = y - terminals[j].point.y;
+            var distance = Math.sqrt(dx * dx + dy * dy);
+            if (distance <= nearestDistance) {
+                nearestDistance = distance;
+                nearestTerminal = terminals[j];
+            }
+        }
+    }
+
+    return nearestTerminal;
+}
+
 function syncSinglePlacementControls() {
     if (!window.canvas) {
         return;
@@ -1014,10 +1048,35 @@ window.onload = function () {
 function mouseLeftDown(x, y) {
     if (x > 0 && y > 0) {
         if (canvas.action == operationType.DRAW_POINT) {
-            canvas.element.push(new point(canvas.id, null, x, y, 8, pointType.PASSIVE, ""));
-            canvas.redoArray = [];
+            var connectionTerminal = findConnectionTerminal(x, y);
+            if (!connectionTerminal) {
+                terminal.update("Place a point at a component terminal");
+            } else {
+                var pointAlreadyPlaced = canvas.element.some(function (element) {
+                    return element instanceof point &&
+                        element.point.x === connectionTerminal.point.x &&
+                        element.point.y === connectionTerminal.point.y;
+                });
+                if (pointAlreadyPlaced) {
+                    terminal.update("A point is already placed at this terminal");
+                } else {
+                    var placedPoint = new point(
+                        canvas.id,
+                        null,
+                        connectionTerminal.point.x,
+                        connectionTerminal.point.y,
+                        8,
+                        pointType.PASSIVE,
+                        ""
+                    );
+                    placedPoint.isUserPoint = true;
+                    canvas.element.push(placedPoint);
+                    canvas.redoArray = [];
+                }
+            }
         } else if (canvas.action == operationType.MAKE_CONNECTION) {
-            drawConnection(x, y, canvas.currentElement);
+            hover(x, y);
+            drawConnection(x, y, findConnectionTerminal(x, y) || canvas.currentElement);
             canvas.redoArray = [];
         } else if (canvas.action == operationType.DRAW_TWO_WAY_KEY) {
             var temp = new twoWayKey(x, y);

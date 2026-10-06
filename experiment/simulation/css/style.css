@@ -729,7 +729,7 @@ img[src*="formula.png"] {
 
     .simulation-controls .component-control-row {
         display: grid !important;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         flex-wrap: initial !important;
         gap: 8px;
     }
@@ -739,11 +739,6 @@ img[src*="formula.png"] {
         width: 100% !important;
         min-width: 0;
         margin: 0 !important;
-    }
-
-    .simulation-controls .component-control-row > #pndiode {
-        grid-column: 1 / -1;
-        width: 110px !important;
     }
 
     .volt-control-row {
