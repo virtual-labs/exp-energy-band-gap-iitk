@@ -197,9 +197,23 @@ body {
     width: 244px;
 }
 
+.component-control-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+    width: min(100%, 224px) !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.component-control-row > .btn {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
 .power-row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -601,8 +615,8 @@ img[src*="formula.png"] {
     .info-panel {
         width: 100% !important;
         max-width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
         float: none;
     }
 
@@ -619,12 +633,34 @@ img[src*="formula.png"] {
         min-width: 120px;
     }
 
+    .simulation-controls > .row.component-control-row {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 12px;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
     .simulation-controls .row > a {
         flex-basis: 100%;
     }
 
+    .simulation-controls > .row.power-row > a {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
     .power-row #btn_main {
+        width: 100% !important;
         max-width: none;
+    }
+
+    .power-row #btn_main2 {
+        width: 100% !important;
+        max-width: none;
+        margin: 0 !important;
     }
 
     .experiment-stage {
@@ -666,6 +702,47 @@ img[src*="formula.png"] {
 
     .simulation-controls {
         margin-bottom: 12px;
+        width: min(100%, 223px) !important;
+        max-width: 223px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .simulation-controls > .row:not(.message-panel-row) {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 4px;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .simulation-controls > .row:not(.message-panel-row) > a,
+    .simulation-controls > .row:not(.message-panel-row) > .btn {
+        grid-column: 1 / -1;
+        display: block;
+        width: 100% !important;
+        min-width: 0;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .simulation-controls > .row.power-row > a > .btn {
+        width: 100% !important;
+        max-width: none !important;
+        box-sizing: border-box !important;
+    }
+
+    .simulation-controls > .row.paired-control-row > .btn,
+    .simulation-controls > .row.component-control-row > .btn {
+        grid-column: auto;
+        justify-self: stretch;
+        width: 100% !important;
+        min-width: 0;
+        box-sizing: border-box !important;
     }
 
     .message-panel-row {
@@ -699,21 +776,6 @@ img[src*="formula.png"] {
     .btn {
         width: 100% !important;
         display: block;
-    }
-
-    .simulation-controls .paired-control-row {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        gap: 8px;
-    }
-
-    .simulation-controls .paired-control-row > .btn {
-        display: block;
-        width: auto !important;
-        min-width: 0;
-        flex: 1 1 0;
-        margin: 0 !important;
     }
 
     .volt-control-row {
@@ -854,4 +916,3 @@ img[src*="formula.png"] {
         height: 220px !important;
     }
 }
-
